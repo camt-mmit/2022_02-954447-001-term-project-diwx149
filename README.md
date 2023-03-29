@@ -2,7 +2,7 @@
 
 <h1>Pokemon API x Angular<h1>
 <h2>954447 CLIENT-SIDE SCRIPTING Term Project<h2>
-<h2>632110149 Doolyawit Yodkaew
+<h2>632110149 Doolyawit Yodkaew <br>
 632110131 Chongkhom Rachwangmueng<h2>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
