@@ -1,0 +1,26 @@
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<form [formGroup]="formGroup" (ngSubmit)="doSearch()" class="search">
+  <label>
+    <b>Search</b>
+    <input type="text" formControlName="search" />
+  </label>
+  <button type="submit" class="s"><i class="material-symbols-outlined">
+      search
+    </i></button>
+  <button (click)="doClear()" class="c"><i class="material-symbols-outlined">
+      close
+    </i></button>
+</form>
+<div class="but">
+  <button type="button" [disabled]="!data.previous" (click)="page(data.previous?.searchParams)">
+    Previous
+  </button>
+  <button type="next" [disabled]="!data.next" (click)="page(data.next?.searchParams)">
+    Next
+  </button>
+</div>
+<ul class="result">
+  <li *ngFor="let item of list" tabindex="0" (click)="select(item)" (keydown.enter)="select(item)">{{ item.name
+    }}</li>
+</ul>

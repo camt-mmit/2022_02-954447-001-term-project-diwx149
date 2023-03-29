@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=VT323&display=swap");
+.search {
+  text-align: center;
+  margin-top: 20px;
+}
+.search b {
+  font-family: "VT323", monospace;
+  margin-right: 10px;
+  font-size: 30px;
+  color: #3b4cca;
+}
+.search input {
+  border: #ffde00 solid 1px;
+  border-radius: 20px;
+  background-color: #ffde00;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.s {
+  margin-right: 5px;
+  background-color: #5d9c59;
+  border: #5d9c59 solid 1px;
+  border-radius: 10px;
+  color: white;
+}
+.c {
+  background-color: #df2e38;
+  border: #df2e38 solid 1px;
+  border-radius: 10px;
+  color: white;
+}
+.but {
+  text-align: center;
+  margin-top: 20px;
+}
+.but button {
+  margin-right: 5px;
+  background-color: #ff0000;
+  border: #ff0000 solid 1px;
+  border-radius: 10px;
+  color: white;
+}
+.but button:disabled {
+  background-color: white;
+  border: white solid 1px;
+  border-radius: 10px;
+  color: white;
+}
+.result {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 2px;
+}
+.result li {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.result li:hover {
+  border: #ffde00 solid 1px;
+  border-radius: 20px;
+  font-family: "VT323", monospace;
+  font-size: 30px;
+  background-color: #ffde00;
+  color: #3b4cca;
+}

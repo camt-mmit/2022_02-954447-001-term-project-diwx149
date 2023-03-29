@@ -1,0 +1,7 @@
+<div>
+  <button type="button" (click)="back()">Back</button>
+</div>
+<app-poketype-view *ngIf="data$ | async as data  else loading" [data]="data"></app-poketype-view>
+<ng-template #loading>
+  <div>loading...</div>
+</ng-template>

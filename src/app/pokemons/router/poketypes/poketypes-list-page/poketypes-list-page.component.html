@@ -1,0 +1,6 @@
+<app-poketypes-list *ngIf="data$ | async as data; else loading" [data]="data" [search]="searchData"
+  (searchChange)="search($event)" (itemSelected)="onItemSelect($event)"></app-poketypes-list>
+
+<ng-template #loading>
+  <div>Loading...</div>
+</ng-template>
